@@ -36,7 +36,7 @@ const HomeScreen = () => {
     setSearchTerm("");
     window.location.reload(true);
   };
-
+  console.log(blogs);
   return (
     <div>
       {/* Page Header */}
